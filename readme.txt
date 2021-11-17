@@ -14,3 +14,14 @@ ios::sync_with_stdio(0);
 cin.tie(0);
 
 
+<--------------------------------------------------------------------------->
+
+<-------------- Reading string with spaces in C++ ------------------------->
+
+Sometime the program should read a whole line from the input, possibly containg spaces
+. This can be accomplished by using the getline function.
+
+string s;
+getline(cin, s);
+
+<-------------------------------------------------------------------------->
